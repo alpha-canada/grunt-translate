@@ -1,0 +1,24 @@
+{
+  "name": "grunt-alpha-translate",
+  "version": "1.0.0",
+  "description": "Utility to translate json files to .mo files",
+  "scripts": {
+    "test": "grunt test"
+  },
+  "author": "Relentless Technology",
+  "license": "ISC",
+  "dependencies": {
+    "gettext-parser": "^1.2.0"
+  },
+  "devDependencies": {
+    "gettext-parser": "^1.2.0",
+    "grunt": "^1.0.1",
+    "grunt-contrib-clean": "^1.0.0",
+    "grunt-contrib-jshint": "^1.0.0",
+    "grunt-contrib-nodeunit": "^1.0.0"
+  },
+  "peerDependencies": {
+    "grunt": "^1.0.1",
+	"gettext-parser": "^1.2.0"
+  }
+}
