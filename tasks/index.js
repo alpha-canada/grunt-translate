@@ -64,6 +64,11 @@ module.exports = function ( grunt ) {
 					// translated string
 					var translation = translations[id];
 					
+					if(translation === ""){
+						// don't add empty strings
+						continue;
+					}
+					
 					// add translation definition object
 					moTranslations[id] = {
 						msgid : id,
